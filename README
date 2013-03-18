@@ -1,0 +1,34 @@
+SMBIOS kernel module project
+=============================
+
+This project has the goal to make the SM-BIOS data visible in a human readable
+format. Almost every computer with a BIOS does also provide System Management
+BIOS data not there does not seem to exist a tool to easily read the management
+information provided here in.
+
+The System Management BIOS specifiaction is a standard provided by the DMTF
+(distributed management task force, inc.) and available at
+http://dmtf.org/standards/bios.php.
+
+The smbios kernel module reads the SMBIOS management information and makes it
+visible in three different formats:
+1. /proc/smbios: the file names match the names of the SMBIOS types and the
+files contain the interpreted (cooked) information of the corresponding type
+2. /proc/smbios/raw:  the file names match the SMBIOS types and the contents
+are in raw (binary) format, so any application can interpret the types on their
+own
+3. /proc/smbios/cooked: the file names match the SMBIOS types and the files
+contain the interpreted (cooked) information of the corresponding type.
+
+Currently, the cooked information does not yet cover each SMBIOS type nor does
+it cover each entry in the SMBIOS types. This is subject to be done in the
+future. The supported SMBIOS reference specification version is 2.3.1.
+
+For installation instructions, please look at the INSTALL file.
+
+The most useful stuff is already supported but there's still a lot to do.
+Any help is appreciated, be it development support, reporting of bugs (or
+patches) or simply by saying that you like it ;-)
+
+Have fun,
+Thomas

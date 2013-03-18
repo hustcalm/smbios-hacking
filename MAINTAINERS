@@ -1,0 +1,30 @@
+	              List of maintainers
+
+ 		-----------------------------------
+
+Maintainers List (try to look for most precise areas first)
+
+Note: For the hard of thinking, this list is meant to remain in alphabetical
+order. 
+
+P: Person
+M: Mail patches to
+L: Mailing list that is relevant to this area
+W: Web-page with status/info
+S: Status, one of the following:
+
+	Supported:	Someone is actually paid to look after this.
+	Maintained:	Someone actually looks after it.
+	Odd Fixes:	It has a maintainer but they don't have time to do
+			much other than throw the odd patch in. See below..
+	Orphan:		No current maintainer [but maybe you could take the 
+			role as you write your new code].
+	Obsolete:	Old code. Something tagged obsolete generally means
+			it has been replaced by a better system and you
+			should be using that.
+
+SMBIOS
+P:	Joachim Braeuer
+M:	joachim.braeuer@fujitsu-siemens.com
+W:	will be source forge
+S:	Supported

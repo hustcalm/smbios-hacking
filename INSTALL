@@ -1,0 +1,13 @@
+INSTALLATION NOTES
+===================
+
+1. run 'make' to generate the smbios kernel module
+2. switch to root user and issue 'make install', the smbios kernel module
+   will be installed to /lib/modules/`uname -r`/misc
+2. run 'modprobe smbios' as root to load the module
+3. change directory to /proc/smbios to see the interpreted (cooked)
+   SM-BIOS data provided with your system
+
+Have fun and report bugs and patches.
+
+

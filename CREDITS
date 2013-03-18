@@ -1,0 +1,26 @@
+	This is at least a partial credits-file of people that have
+	contributed to the SM-Bios project.  It is sorted by name and
+	formatted to allow easy grepping and beautification by
+	scripts.  The fields are: name (N), email (E), web-address
+	(W), PGP key ID and fingerprint (P), description (D), and
+	snail-mail address (S).
+	Thanks,
+
+			Joachim
+----------
+
+N: Bretthauer Thomas
+E: bretthauert@users.sourceforge.net
+D: Redesign, enhancement and introduction of the cooked mode
+
+N: Lyra Markus
+E: markus.lyra@infineon.de
+D: Initial version of the driver for a computer science dissertation
+
+
+# N: Sample name
+# E: Sample-email address
+# D: Sample description
+# S: Sample address
+# W: Sample web address
+# P: Sample pgp key id
